@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 35px;
+
+}
+
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+
+section {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+section:nth-child(odd) {
+    background: #323946;
+
+    
+}
+
+
+#home {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+#home img {
+    width: 45%; 
+    height: auto; 
+    max-width: 500px; 
+}
+
+#home h1 {
+    font-size: 40px;
+    width: 50%; 
+    text-align: right; 
+    line-height: 1.5; 
+    margin-left: 20px; 
+}
+
+#About {
+    text-align: center; 
+    padding: 40px; 
+}
+
+#About img {
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+#About p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #fff; 
+    font-weight: 300; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#Hobbies {
+    display: flex;
+    align-items: center; 
+    padding: 30px;
+    background: #323946; 
+    gap: 20px; 
+}
+
+#hobbies {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: #323946; 
+}
+
+.hobbies-content {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.hobbies-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.hobbies-text {
+    max-width: 600px; 
+}
+
+.hobbies-text h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px; 
+}
+
+.hobbies-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+
+
+#gallery {
+    padding: 50px 10px; 
+    text-align: center; 
+    background: #1f242d; 
+    color: #fff; 
+}
+
+#gallery h2 {
+    font-size: 24px;
+    margin-bottom: 30px; 
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px; 
+}
+
+.gallery-grid img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #4CAF50;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 20px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text */
+    background: #1f242d; /* Optional: Match the section's background color */
+    color: #fff; /* Text color */
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Space between heading and content */
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 20px; /* Space between paragraph and link */
+}
+
+.fb-link {
+    font-size: 18px;
+    color: #0ef; /* Facebook blue color */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.fb-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
